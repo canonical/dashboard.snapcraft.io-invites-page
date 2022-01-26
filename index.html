@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accept invitation</title>
+  <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-3.0.1.min.css" />
+  <style>
+    html, body { height: 100%; }
+    .main { align-items: stretch; display: flex; flex-direction: column; min-height: 100%; }
+    .main-section { flex-grow: 1 }
+    .main-section, footer { flex-shrink: 0; }
+
+    .suru-background {
+      background-blend-mode: multiply, multiply;
+      background-image: linear-gradient(to bottom right, rgba(119, 41, 83, 0.16) 0, rgba(119, 41, 83, 0.16) 49.9%, transparent 50%),linear-gradient(to bottom left, rgba(130, 190, 160, 0.2) 0, rgba(130, 190, 160, 0.2) 49.9%, transparent 50%),linear-gradient(#106363 0, #106363 100%);
+      color: #f7f7f7;
+      background-position: left top, right top;
+      background-repeat: no-repeat;
+      background-size: 70% 30%, 75% 100%, 100% 100%;
+    }
+
+    @media only screen and (min-width: 1036px) {
+      background-size: 70% 80%, 75% 100%, 100% 100%;
+    }
+  </style>
+</head>
+<body>
+  <main id="main" class="main">
+    <header class="p-strip is-shallow suru-background">
+      <div class="u-fixed-width u-align--center">
+        <img src="https://assets.ubuntu.com/v1/b46c8d7d-snapcraft-logo-hor-white.svg" alt="Snapcraft" width="400" height="91">
+      </div>
+    </header>
+    <section class="p-strip main-section">
+      <div class="u-fixed-width">
+        <h1 class="p-heading--1">Accept invitation to join a store</h1>
+        <p>Accept invitation to join a store <strong>Test store</strong> with roles:</strong></p>
+        <ul>
+          <li>viewer</li>
+          <li>admin</li>
+        </ul>
+        <div>
+          <a href="#" class="p-button--positive">Yes, I want to join the store</a>
+          <a href="#" class="p-button">Cancel and go back to the store list</a>
+        </div>
+      </div>
+    </section>
+    <footer class="p-strip--light">
+      <div class="row">
+        <div class="col-9">
+          <p><a href="#" class="p-link--soft">Back to top&nbsp;<i class="p-icon--chevron-up"></i></a></p>
+          <p>
+            &copy; 2022 Canonical Ltd.<br>
+            Ubuntu and Canonical are registered trademarks of Canonical Ltd.
+            <br>
+            Powered by <a href="https://www.ubuntu.com/kubernetes">Charmed Kubernetes</a>
+          </p>
+          <p>
+            <small>
+              <a href="https://forum.snapcraft.io/">Join the forum</a>, contribute to or report problems with,
+              <a href="https://bugs.launchpad.net/snapd">snapd</a>,
+              <a href="https://bugs.launchpad.net/snapcraft">Snapcraft</a>,
+              or
+              <a href="https://github.com/canonical-web-and-design/snapcraft.io/issues">this site</a>.
+            </small>
+          </p>
+        </div>
+        <div class="col-3">
+          <ul class="p-inline-list u-align--right">
+            <li class="p-inline-list__item">
+              <a href="https://twitter.com/snapcraftio" class="p-icon--twitter">Share on Twitter</a>
+            </li>
+            <li class="p-inline-list__item">
+              <a href="https://www.facebook.com/snapcraftio" class="p-icon--facebook">Share on Facebook</a>
+            </li>
+            <li class="p-inline-list__item">
+              <a href="https://www.youtube.com/snapcraftio" class="p-icon--youtube">Share on YouTube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="u-fixed-width">
+        <ul class="p-inline-list--middot u-no-margin--bottom">
+          <li class="p-inline-list__item">
+            <a class="p-link--soft" href="https://ubuntu.com/legal/terms-and-policies/snap-store-terms"><small>Terms of Service</small></a>
+          </li>
+          <li class="p-inline-list__item">
+            <a class="p-link--soft" href="https://www.ubuntu.com/legal/data-privacy"><small>Data privacy</small></a>
+          </li>
+          <li class="p-inline-list__item">
+            <a class="p-link--soft js-revoke-cookie-manager" href="https://snapcraft.io"><small>Manage your tracker settings</small></a>
+          </li>
+          <li class="p-inline-list__item">
+            <a class="p-link--soft" href="https://status.snapcraft.io/"><small>Service status</small></a>
+          </li>
+          <li class="p-inline-list__item">
+            <a class="p-link--soft" href="https://dashboard.snapcraft.io/"><small>Other functions</small></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
